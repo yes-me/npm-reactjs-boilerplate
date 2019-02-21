@@ -1,5 +1,3 @@
-import double from './double';
+import {double} from './src/double';
 
-export {
-  double
-};
+export {double};

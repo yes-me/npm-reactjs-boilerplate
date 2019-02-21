@@ -1,8 +1,12 @@
 {
   "name": "npm-reactjs-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npm reactjs boilerplate",
   "main": "index.js",
+  "files": [
+    "src/",
+    "README.md"
+  ],
   "scripts": {
     "test": "jest --detectOpenHandles --forceExit",
     "test:fn": "APP_ID=FN jest --detectOpenHandles --forceExit",
