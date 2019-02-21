@@ -1,6 +1,6 @@
 {
   "name": "npm-reactjs-boilerplate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "npm reactjs boilerplate",
   "main": "build/index.js",
   "files": [
