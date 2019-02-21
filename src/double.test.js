@@ -1,4 +1,4 @@
-import double from './index';
+import double from './double';
 
 describe('double the number', () => {
     it ('should return double of number of 4', () => {
