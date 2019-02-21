@@ -2,7 +2,7 @@
   "name": "npm-reactjs-boilerplate",
   "version": "1.0.2",
   "description": "npm reactjs boilerplate",
-  "main": "index.js",
+  "main": "build/index.js",
   "files": [
     "src/",
     "README.md"
@@ -21,13 +21,8 @@
     "clean-lint": "npm run clean && npm run lint",
     "prebuild": "npm run clean",
     "build": "NODE_ENV=production webpack --no-colors",
-    "postbuild": "npm run build-pages",
     "prettier": "prettier -l 'src/**/*{.js,.jsx,.json,.css}'",
-    "prettier:fix": "npm run prettier -- --write",
-    "build-pages": "node ./src/shared/generate-pages",
-    "start": "NODE_ENV=development webpack-dev-server --progress --color",
-    "start-pbc": "APP_ID=PBCFS npm start",
-    "serve": "http-server dist"
+    "prettier:fix": "npm run prettier -- --write"
   },
   "repository": {
     "type": "git",
