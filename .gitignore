@@ -1,0 +1,16 @@
+# Dependency directory
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+#idea
+.idea/
+
+# e2e
+reports
+
+# Mac DS_Stores
+**/.DS_Store
